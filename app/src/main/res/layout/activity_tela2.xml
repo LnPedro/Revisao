@@ -21,15 +21,31 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:id="@+id/txtUsuario"
+        android:id="@+id/txtDasboard"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-150dp"
+        android:layout_marginTop="-180dp"
         android:textStyle="bold"
-        android:textSize="20sp"
+        android:text="DASHBOARD"
+        android:textSize="30sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view_backgraound" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtUsuario"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-110dp"
+        android:layout_marginEnd="200dp"
+        android:text="Bem vindo, Usuario"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_backgraound" />
+
+
 
     <GridLayout
         android:layout_width="match_parent"
@@ -60,12 +76,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp"
+                android:paddingTop="37dp"
+
                 >
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/home"
                     android:layout_gravity="center"
                     />
@@ -73,7 +90,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="Home"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -98,12 +115,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp"
+                android:paddingTop="37dp"
                 >
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/engrenagem"
                     android:layout_gravity="center"
                     />
@@ -111,7 +128,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="Settings"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -136,12 +153,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp"
+                android:paddingTop="37dp"
                 >
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/search"
                     android:layout_gravity="center"
                     />
@@ -149,7 +166,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="Search"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -174,12 +191,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp"
+                android:paddingTop="37dp"
                 >
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/smartphone"
                     android:layout_gravity="center"
                     />
@@ -187,11 +204,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
                     android:layout_gravity="center"
+                    android:text="Contacts"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"></TextView>
+                    android:textStyle="bold"></TextView>
 
 
             </LinearLayout>
@@ -212,12 +229,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp"
+                android:paddingTop="37dp"
                 >
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/relogio"
                     android:layout_gravity="center"
                     />
@@ -225,7 +242,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="Daily"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -250,12 +267,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp"
+                android:paddingTop="37dp"
                 >
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/logout"
                     android:layout_gravity="center"
                     />
@@ -263,7 +280,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="Logout"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"
