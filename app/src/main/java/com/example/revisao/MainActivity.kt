@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
             }else{
 
-                Toast.makeText(this, "Login ou senha incorretos", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "Login ou senha incorretos", Toast.LENGTH_SHORT).show()
             }
         }
     }
