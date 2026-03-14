@@ -22,7 +22,7 @@
         <ImageView
             android:layout_width="160sp"
             android:layout_height="160sp"
-            android:src="@drawable/user"
+            android:src="@drawable/userlogin"
             />
 
         <EditText
@@ -93,7 +93,28 @@
 
 
 
+
+
+
+
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="PEDRO ABRAÃO LINO DA SILVA"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="20232TIIMI0233"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
 
 
 
